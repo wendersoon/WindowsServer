@@ -24,5 +24,19 @@ Instalaremos a ISO no software de virtualização Oracle VM VirtualBox versão 7
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/e2d12023-4db7-4736-87dc-a0c57ed601f1)
 
-Após isso irá aparecer um sumário de todas as configurações selecionadas, verifique se está tudo certo e clique em *finalizar*.
+Após isso irá aparecer um sumário de todas as configurações selecionadas, verifique se está tudo certo e clique em *finalizar*. Aguarde um pouco e Inicie a Máquina Virtual.
+
+5. A primeira janela que irá aparecer é conforme a da imagem abaixo, selecione a linguagem(apesar de já ter baixado com a linguagem definida no site), o formato da hora e o tipo de teclado, por fim clique em *next*. Após isso irá aparcer a opção *Install Now*, clique nela:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/2d6c4aa3-f101-45f3-9832-174ebc68acec)
+
+6. Seleciona a edição **Windows Server 2016 Standard Evaluation(Desktop Experience)** o qual iremos trabalhar nesse projeto:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/0bc56e7a-e6f4-4e1d-bf6d-342bddc6dc98)
+
+7. Na próxima janela aceite os termos de uso e clique em *next*.
+
+
+
+
 
