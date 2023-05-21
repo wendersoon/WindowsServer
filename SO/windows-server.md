@@ -6,11 +6,11 @@ Usaremos como sistema operacional do nosso servidor o Windows Server 2016, iremo
 
 Instalaremos a ISO no software de virtualização Oracle VM VirtualBox versão 7.0.4.. Segue os passos de instalação e configuração:
 
-1. Configuração da máquina virtual: você vai em novo e adiciona as informações do nome, a pasta que deseja instalar e a imagem ISO e em seguida clica em *Próximo*. Se caso não aparece essa opção *novo*, você pode encontrá-la na guia *Máquina*. Temos também duas formas de fazer a instalação, isto é, temos a opção de instalação assistida e desassistida. Aqui optei pela segunda para facilitar o processo e se você notar temos a opção *Edição*, selecione a mesma que aparece no print abaixo, pois é com essa que iremos trabalhar no decorrer do projeto:
+1. Configuração da máquina virtual: você vai em novo e adiciona as informações do nome, a pasta que deseja instalar e a imagem ISO e em seguida clica em *Próximo*. Se caso não aparece essa opção *novo*, você pode encontrá-la na guia *Máquina*. Temos também duas formas de fazer a instalação, isto é, temos a opção de instalação assistida e desassistida, aqui optei pela primeira opção porque nos testes que realizei a segunda opção sempre apresentava um erro.
  
 ![226125983-5cf21a60-f345-4738-a69b-28cec4dc775d](https://github.com/wendersoon/WindowsServer/assets/104470835/350f0aab-9248-494d-ad37-d73954c7fc65)
 
-![image](https://github.com/wendersoon/WindowsServer/assets/104470835/500f2a6d-f863-485f-b1e8-a8025f9b83fc)
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/fbec5e60-a475-44cd-ad9f-ccd35f7eb287)
 
 2. Deixe a próxima janela do jeito que está e clique em *próximo*:
 
