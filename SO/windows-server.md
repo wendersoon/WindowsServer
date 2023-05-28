@@ -42,6 +42,6 @@ Após isso irá aparecer um sumário de todas as configurações selecionadas, v
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/ab93f76a-26b6-4230-8423-bb81a0fa6031)
 
-No próximo tópico iremos ver algumas configurações iniciais para começar a trabalhar com o nosso servidor Windows.
+Será pedido para criar uma senha o usuário administrador, crie a sua. No próximo tópico iremos ver algumas configurações iniciais para começar a trabalhar com o nosso servidor Windows.
 
 Até mais!
