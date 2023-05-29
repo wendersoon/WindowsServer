@@ -37,4 +37,8 @@ Uma das coisas mais importantes de um servidor é mantê-lo atualizado pois isso
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/4fe93220-8f28-432f-abb1-1106ba9250f0)
 
+Depois de atualizado, reinicie o servidor.
+
+### Ativando o Windows Defender
+
 
