@@ -39,6 +39,23 @@ Uma das coisas mais importantes de um servidor é mantê-lo atualizado pois isso
 
 Depois de atualizado, reinicie o servidor.
 
-### Ativando o Windows Defender
+### Verificar o Windows Defender
+
+Após a atualização, vamos verificar se está tudo ok com o **Windows Defender**. Para isso basta que pesquisemos na lupa por **Windows Defender**, acesse e lá teremos a seguinte janela:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/0f79ef7a-e227-4267-8f3c-f94cdc66facc)
+
+Se estiver como essa tela, significa que está tudo ok. Se não, basta acessar o menu **Settings** no canto superior direito e ativar todas as opções.
+
+---
+
+Terminamos por aqui essa parte do projeto, até o próximo tópico!
+
+
+
+
+
+
+
 
 
