@@ -26,8 +26,11 @@ Agora veremos as seguintes guias:
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c504bbf5-2a8d-4e12-813d-3242e7ad9b7e)
 
-* `Manage`: essa guia fornece acesso a configurações importantes em um gerenciamento de servidor tais como: adicionar/remover funções e recursos, adicionar servidores, criar grupos de servidores e acessar as propriedades do gerenciador do servidor. Veja a guia aberta abaixo.
+* `Manage`: essa guia fornece acesso a configurações importantes em um gerenciamento de servidor tais como: adicionar/remover funções e recursos, adicionar servidores, criar grupos de servidores e acessar as propriedades do gerenciador do servidor. Veja a guia aberta abaixo;
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f338f6d6-f318-4760-89e0-3d8b54124759)
 
-* `Tools`: nessa guia temos acesso as nossas ferramentas
+* `Tools`: nessa guia temos acesso as nossas ferramentas e utilitários para o servidor tanto as que já estão preeviamente instaldas como as ques instalaremos no próximos artigos;
+
+* `Views`: essa guia permite que seja adaptado o layout e a exibição de acordo com nossas preferências e necessidades de gerenciamento.
+* `Help`: essa guia fornece acesso à documentação e aos recursos de suporte do Windows Server Manager. 
