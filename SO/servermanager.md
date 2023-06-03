@@ -6,7 +6,7 @@ O **Server Manager**(gerenciador de servidor) segundo a própria definição enc
 
 Vejamos as funcionalidades nos tópicos abaixo.
 
-### Interface Gráfica do Usuário (GUI)
+## Interface Gráfica do Usuário (GUI)
 
 Encontramos o **Server Manager** no menu iniciar, como vimos no *artigo anterior*. A primeira janela que vemos ao abrir a ferramenta é a seguinte:
 
@@ -22,3 +22,12 @@ Agora veremos cada uma das guias que podemos observar nessa janela principal. Co
 
 * `File and Storage Services`: essa guia é usada para gerenciar funções e recursos relacionados a arquivos e armazenamento. Ela permite configurar e gerenciar compartilhamentos de arquivos, serviços de replicação de arquivos, serviços de acesso a arquivos, serviços de armazenamento em nuvem entre outros.
 
+Agora veremos as seguintes guias:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c504bbf5-2a8d-4e12-813d-3242e7ad9b7e)
+
+* `Manage`: essa guia fornece acesso a configurações importantes em um gerenciamento de servidor tais como: adicionar/remover funções e recursos, adicionar servidores, criar grupos de servidores e acessar as propriedades do gerenciador do servidor. Veja a guia aberta abaixo.
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f338f6d6-f318-4760-89e0-3d8b54124759)
+
+* `Tools`: nessa guia temos acesso as nossas ferramentas
