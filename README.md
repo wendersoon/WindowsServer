@@ -23,4 +23,6 @@ Todas as etapas desse projeto estão listados abaixo, você pode também acessá
 
 ### Windows Server
 
+* [INSTALAÇÃO DA ISO](https://github.com/wendersoon/WindowsServer/blob/main/SO/windows-server.md)
+* [CUSTOMIZAÇÕES INICIAIS](https://github.com/wendersoon/WindowsServer/blob/main/SO/custom.md)
 
