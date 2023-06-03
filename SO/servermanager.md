@@ -34,3 +34,9 @@ Agora veremos as seguintes guias:
 
 * `Views`: essa guia permite que seja adaptado o layout e a exibição de acordo com nossas preferências e necessidades de gerenciamento.
 * `Help`: essa guia fornece acesso à documentação e aos recursos de suporte do Windows Server Manager. 
+
+---
+
+Sobre o **Server Manager** esses são os pontos principais da ferramenta que precisamos saber nesse ponto atual do projeto. Se você quiser saber mais acesse o [link](https://learn.microsoft.com/pt-br/windows-server/administration/server-manager/server-manager) do site oficial. E se precisarmos ver mais alguma coisa, será abordado durante os artigos.
+
+Até mais.
