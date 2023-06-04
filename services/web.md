@@ -21,12 +21,20 @@ Para instalar o ISS ou qualquer outro serviço deve-se seguir os seguintes passo
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/81b5dbf2-e801-4ae9-bf3c-53dbbb12b8df)
 
-3. Na próxima janela ("Server Selection") é onde selecionamos nosso servidor (sim kkkk), como tenho apenas um servidor ativo é só ele que irá aparecer.
+3. Na próxima janela ("Server Selection") é onde selecionamos nosso servidor (sim, isso mesmo kkkk), como tenho apenas um servidor ativo é só ele que irá aparecer.
 4. A janela seguinte do assistente é onde de fato adicionamos o serviço/função que desejo instalar. Nela estão listadas muitos serviços, procuraremos por `Web Server (ISS)` como na imagem abaixo:
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/eb4bf52b-639b-4d19-bb44-76c9ab11cdc8)
 
 Se você observar, no lado direito irá sempre aparecer uma breve descrição daquilo que selecionamos. Ao marcar a caixa de diálogo do lado do serviço irá aparecer uma pequena janela pedindo para adicionar requisitos obrigatórios para que o serviço funcione corretamente e é isso que queremos, então bastar clicar em `Add Features`.
 
-5. 
+5. Na janela "Features" é onde podemos selecionar alguns recursos a mais para adicionar ao servidor, como por exemplo, recursos para NFS, SMPT etc.. E também, se você já observou, já existem algumas que veêm por padrão no Windows. Nessa janela não selecionaremos nenhuma feature por enquanto.
+6. A próxima janela é apresentado um pequeno resumo da função que iremos instalar, além de colocar no rodapé um link para que saibamos mais sobre aquele serviço.
+7. A janela "Role Services" é onde adicionaremos serviços da nossa função, no caso, serviços que comporão o *Web Server(ISS)*, veja na imagem abaixo os que instalaremos:
+
+![Sem título (1)](https://github.com/wendersoon/WindowsServer/assets/104470835/54b348de-6cc8-4079-a8d6-379c362503be)
+
+Para efeito didático, não abordarei cada uma delas aqui pois isso alongaria demais o artigo. Mas se você quiser entender cada um, poderar está lendo as descrições que aparecem na lateral e fazendo suas pesquisas.
+8.
+
 
