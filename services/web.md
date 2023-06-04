@@ -35,6 +35,8 @@ Se você observar, no lado direito irá sempre aparecer uma breve descrição da
 ![Sem título (1)](https://github.com/wendersoon/WindowsServer/assets/104470835/54b348de-6cc8-4079-a8d6-379c362503be)
 
 Para efeito didático, não abordarei cada uma delas aqui pois isso alongaria demais o artigo. Mas se você quiser entender cada um, poderar está lendo as descrições que aparecem na lateral e fazendo suas pesquisas.
-8.
+8. Na janela "Confirmation" abaixo é apresentado um resumo de tudo que iremos instalar, também é interessante salvarmos essas configurações se caso precisarmos fazer alguma auditoria futura, então para isso clicamos em `Export configuration settings`. Irei criar uma pasta específica para salvar esses documentos, você aí pode está fazendo como quiser. 
 
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/e8823e9f-a68b-4dc4-bbda-d2210c2b3efc)
 
+Após salvar o documento, clique em `Install` e aguarde o processo de instalação ser concluído.
