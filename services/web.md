@@ -39,4 +39,12 @@ Para efeito didático, não abordarei cada uma delas aqui pois isso alongaria de
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/e8823e9f-a68b-4dc4-bbda-d2210c2b3efc)
 
-Após salvar o documento, clique em `Install` e aguarde o processo de instalação ser concluído.
+Após salvar o documento, clique em `Install` e aguarde o processo de instalação ser concluído, após isso feche a janela.
+
+Na guia `Tools`, toda vez que instalarmos alguma função nova ela será listada ali, veja como o **Web Server ISS** aparece:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/d9c0483c-b43b-4812-8572-a8d24541b263)
+
+## Teste do Servidor
+
+
