@@ -39,4 +39,6 @@ Agora veremos as seguintes guias:
 
 Sobre o **Server Manager** esses são os pontos principais da ferramenta que precisamos saber nesse ponto atual do projeto. Se você quiser saber mais acesse o [link](https://learn.microsoft.com/pt-br/windows-server/administration/server-manager/server-manager) do site oficial. E se precisarmos ver mais alguma coisa, será abordado durante os artigos.
 
+*OBS: Em geral, a maioria dos serviços que instalaremos seguirão basicamente os mesmos passos que serão descritos no momento da implementação do servidor web, são bem intuitivos e para não se tornar repetitivo mais adiante alguns prints ou abas serão omitidos.*
+
 Até mais.
