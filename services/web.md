@@ -75,8 +75,45 @@ Agora vamos adicionar um novo site, para isso iremos clicar com o botão direito
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/301c5159-f591-4d60-845b-c8dbef544985)
 
+Agora vamos acessar a pasta e lá dentro criar um arquivo html para nosso site. Para facilitar você pode copiar o arquivo do site padrão para a pasta e depois editar com o código que você quiser. Abaixo o html que usei:
 
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Novo Site</title>
+  <style>
+    .center {
+      text-align: center;
+      margin-top: 50vh;
+      transform: translateY(-50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <h1>Novo Site</h1>
+  </div>
+</body>
+</html>
+```
+O próximo passo é permitir no firewall o acesso externo na porta que configuramos, no caso a porta 8080. Primeiro pesquise no menu iniciar por "firewall" e clique no ícone como da imagem abaixo:
 
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/59c052ae-ec36-4179-9077-138d835b1f7f)
+
+Em seguida vá em `Inbound Rules` -> `New Rule...`:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/9b1dc000-106e-449e-881a-baca1a6577a9)
+
+Escolha em `Rule Type` o tipo para porta, em `Protocol and Ports` adicione a porta 8080:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/cc77f9b8-7e78-419a-972a-ad7d613cc85b)
+
+Clique em `next` até o último painel. Dê um nome a essa nova configuração e salve.
+
+Se tudo deu certo podemos acessar agora pelo navegador com a respectiva porta. Vejamos o resultado abaixo:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/6aaa89d6-d2b8-4696-8be7-ab720e5b9c15)
 
 
 
