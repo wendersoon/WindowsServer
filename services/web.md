@@ -115,7 +115,37 @@ Se tudo deu certo podemos acessar agora pelo navegador com a respectiva porta. V
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/6aaa89d6-d2b8-4696-8be7-ab720e5b9c15)
 
+### Certificado SSL Autoassinado
 
+A segurança na rede é algo essencial e as certificações são necessárias para se ter o mínimo de um tráfego seguro. Vamos implemetar um certificado SSL autoassinado para nosso site. Se você não sabe o que é uma certificação SSL, acesse esse [artigo](https://www.hostinger.com.br/tutoriais/o-que-e-ssl-tls-https) que explica detalhadamente esse assunto.
+
+Acesse as configurações do servidor e clique em `Server Certificates`:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/57513ab5-2add-421b-883c-da3e7af59989)
+
+Clique em `Create Self-Signed Certificate`, está do lado direito da janela:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/d18e7f91-120c-4025-908d-300c2c829858)
+
+Será pedido apenas duas informações, o nome que deseja dá e o tipo de certificado:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/6fe253fd-7323-4f9b-809a-158746ae8ea7)
+
+Após isso clique com o botão direito do mouse no seu site e vá em `Edit Bidings...`
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c573f14e-3923-4bb1-acd0-c9dd91090049)
+
+E adicione as seguintes configurações:
+
+![Screencast from 08-06-2023 20_13_02](https://github.com/wendersoon/WindowsServer/assets/104470835/a3b1b398-bf13-42e5-a055-ca93d70c66a0)
+
+Reinicie o seu site, você vai achar essa função no lado direito do painel:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/5012d5cb-38fc-45fa-9ac3-e9c70df2e9d7)
+
+Vejamos se funcionou, acessando o link `https://IP-DO-SERVIDOR`.
+
+![Screencast from 08-06-2023 20_19_59](https://github.com/wendersoon/WindowsServer/assets/104470835/bdab6fe6-326e-410d-acd6-ac9f9b946e21)
 
 
 
