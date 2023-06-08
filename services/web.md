@@ -47,4 +47,41 @@ Na guia `Tools`, toda vez que instalarmos alguma função nova ela será listada
 
 ## Teste do Servidor
 
+O primeiro teste que devemos fazer é acessar o IP pela porta 80 em navegador, se espera que veja a página padrão do IIS. Veja abaixo o resultado:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/a7d27a4c-507f-48ca-9c3f-379f0d4f981d)
+
+Agora vejamos a interface e as configurações disponíveis no ISS e os serviços adicionais que instalamos (lembrando que para você acessar o IIS, basta ir em `Tools` e acessar a função). 
+
+Quando clicarmos, nos depararemos com uma janela apresentando diversas informações sobre a aplicação, essa primeira parte é chamada de `Start Page`. Nós queremos as configurações relacionas ao **nosso servidor**, por isso vamos clicar no nome dele na parte esquerda da janela como na imagem abaixo:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c75119cd-4459-40f3-bc3e-b3c7f79bcd48)
+
+Depois disso temos o seguinte painel:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/fe258698-5d5b-4d1f-a84b-d83d20a6e90f)
+
+São muitos os serviços apresentados nessa instalação básica, muitos deles são intuitivos outros exigem mais conhecimento técnico. Porém, neste artigo, não veremos todos eles porque o meu objetivo aqui é apresentar a ferramenta e um tutorial básico de seu uso. Você pode está aprofudando os seus conhecimentos atráves do site oficial que contém mais detalhes de cada "canto" dessa função. Novamento deixo aqui o link do [site oficial](https://www.iis.net/).
+
+Se você abrir a seta ao lado do nome do servidor verá algumas aplicações associadas como, por exemplo, a da impressora e também uma pasta que irá conter os sites. E se você tiver curiosidade, ao clicar na página padrão, verá que o painel que aparece é bem semelhante ao painel anterior quando clicamos no nome do servidor. Evidemente, o painel anterior refere-se as configurações gerais do servidor enquanto o painel do site refere-se as configuraçãos do próprio site. Veja abaixo um print do painel do site:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/62a26d13-1399-4b27-8b39-1084385c78f7)
+
+### Criando Novo Site
+
+Agora vamos adicionar um novo site, para isso iremos clicar com o botão direito do mouse em cima do servidor e em seguida clicar em `Add Website...`. Após isso irá aparecer uma janela como a do print abaixo, adicione as informações que são pedidas(pode ser igual da imagem). 
+
+*Atenção em dois detalhes: O primeiro é de escolher uma porta que nenhum serviço esteja utilizando no momento. E o segundo é que o caminho que escolhi (`C:\inetpub\wwwroot\`) é o padrão do IIS e se você explorar encontrará os arquivos do site que vimos anteriormente no primeiro teste. O que fiz na imagem abaixo foi apenas criar uma pasta especifíca ali dentro para o meu novo site*
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/301c5159-f591-4d60-845b-c8dbef544985)
+
+
+
+
+
+
+
+
+
+
 
