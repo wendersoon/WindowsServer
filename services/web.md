@@ -147,6 +147,44 @@ Vejamos se funcionou, acessando o link `https://IP-DO-SERVIDOR`.
 
 ![Screencast from 08-06-2023 20_19_59](https://github.com/wendersoon/WindowsServer/assets/104470835/bdab6fe6-326e-410d-acd6-ac9f9b946e21)
 
+Deu certo :)
+
+## Extra: Servidor FTP
+
+Para instalar a função de servidor FTP basta seguir os mesmos passos da instalação do IIS. Porque a função do FTP é entendido como uma extensão do próprio IIS, veja no print abaixo onde vamos marcar a função para poder instalar:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c2b8baff-6c3b-42f4-86cd-c5b3fd3b2ae3)
+
+Após isso acesse as configurações do ISS para o servidor e veja o roll de novas funções disponíveis:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f2845ee0-d39f-440c-8409-e24ec4c983ae)
+
+Para adicionar um servidor FTP, basta clicar em `Add FTP Site...`
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/e2c9fec6-2f57-431a-9fa7-3c88b697b42b)
+
+Na primeira janela adicione o nome do seu servidor FTP e escolha a pasta que irá ser compartilhada. 
+ 
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/2f336319-ce4f-4847-9476-b6580d300a35)
+
+Na próxima janela informe o IP e a porta, e marque a opção de não usar o certificado:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/8af1113d-e4d8-42a9-a490-c118f331d9b5)
+
+E em seguida informe o/os usuários que irão utilizar e o que podem fazer. Lembre-se que aqui é apenas um tutorial, em um servidor de produção deve-se ter sempre o cuidado em compartilhar pastas na rede:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/9ef529c3-29c0-445b-9504-c095219d344b)
+
+Pronto, nosso servidor já está funcionando!
+
+
+Para acessá-lo basta que você abra o navegador Internet Explorer no seu servidor e busque na URL por `ftp:\\IP-DO-SERVIDOR`, será pedido as informações de login. Veja o print abaixo:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/ac6f963c-3578-409e-8ece-c1d1ab973eef)
+
+---
+
+Terminamos aqui nosso artigo. Obrigado pela leitura!
 
 
 
