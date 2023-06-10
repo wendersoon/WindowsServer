@@ -60,8 +60,6 @@ Observe no painel principal do DHCP Server(imagem abaixo) que do lado esquerdo e
 10. Pule a janela `WINS Servers` que serve para configurações especifícas para computadores com Windows.
 11. Na janela seguinte deixe marcado a opção `Yes, I want to activate this scope now`. E termine a configuração
 
-## Teste do Servidor
-
 Se o escopo não estiver ativado, basta clicar no ícone que aparece na imagem abaixo, ele deve está com a seta para baixo para está ativo:
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f316ffb0-761f-4a35-87aa-4259af0052c2)
