@@ -42,8 +42,9 @@ Observe no painel principal do DHCP Server(imagem abaixo) que do lado esquerdo e
 
 4. Na próxima janela adicionamos o range de endereços que o servidor DHCP irá entregar, veja como configurei o meu:
 
-![image](https://github.com/wendersoon/WindowsServer/assets/104470835/eb427b5a-2005-4807-865b-2af8d6d15903)
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/0163d6ad-ee0b-47ac-8756-227819de43d9)
 
+5. A próxima janela defini-se as exclusões de endereços que não serão distribuídos. Por exemplo, se ali em cima eu tivesse adicionado a faixa de IP a partir de 192.168.0.1, certamente para não dá algum problema lá na frente, eu adicionaria o IP do servidor como uma exclusão. Mas configurei no passo anterior de uma forma que deixe uma faixa de IPs livres para trabalharmos, essa é uma prática recomendada.
 
 
 
