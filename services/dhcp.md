@@ -34,7 +34,17 @@ Observe no painel principal do DHCP Server(imagem abaixo) que do lado esquerdo e
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/a5e3253c-1b3b-4d89-bbf0-9a3d0c7ac1b8)
 
-2. A primeira coisa que devemos fazer é criar um escopo
+2. A primeira coisa que devemos fazer é criar um escopo que nada mais é do que a faixa de endereços IPs que quero distribuir. Clicando com o botão direito do mouse em IPv4, selecione `New Scope`
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/98502e5a-61b4-4280-8c36-ced5917d3eae)
+
+3. A primeira janela que aparece pede apenas um nome e uma descrição para o novo escopo que estamos criando, então fique livre pra adicionar o nome que quiser. Em um ambiente de produção é recomendável formatar esses nomes seguindo um padrão, por exemplo, *WIFI-FINANCEIRO* etc.
+
+4. Na próxima janela adicionamos o range de endereços que o servidor DHCP irá entregar, veja como configurei o meu:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/eb427b5a-2005-4807-865b-2af8d6d15903)
+
+
 
 
 
