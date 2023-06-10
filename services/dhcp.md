@@ -48,8 +48,24 @@ Observe no painel principal do DHCP Server(imagem abaixo) que do lado esquerdo e
 
 6. Na janela seguinte, pede-se o tempo em que um IP ficará disponível para uma máquina. Esse tempo depende muito do ambiente na qual o servidor DHCP irá ser usado, por exempo, em uma praça de alimentação com fluxo enorme de pessoas não é nenhum pouco recomendável reservar um IP para um cliente por, digamos, 3 dias porque isso causaria problemas na conexão onde uma nova máquina não conseguiria obter um IP, por exemplo. Como estou em um ambiente de teste, irei deixar o padrão mesmo que é de 8 dias.
 
-7. 
-8. 
+7. Nessa janela deixe esse opção marcada, porque iremos adicionar mais algumas configurações:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c11562f2-8d78-42a0-b178-02fc75644310)
+
+8. Será pedido para adicionar o IP padrão do gateway, no meu caso é o `192.168.0.1`
+9. Na próxima janela, é pedido para adicionar o IP do DNS. É recomendável adicionar como DNS primário o próprio IP do servidor, porque qualquer máquina na rede irá solicitar primeiro que resolva o nome no servidor local, e essa característica em conjunto com um firewall garante um segurança mais "fechada" a toda a infraestrutura. Veja como configurei o meu:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/ffafb9ea-c270-4881-8d7b-3681e89e4c22)
+
+10. Pule a janela `WINS Servers` que serve para configurações especifícas para computadores com Windows.
+11. Na janela seguinte deixe marcado a opção `Yes, I want to activate this scope now`. E termine a configuração
+
+## Teste do Servidor
+
+Se o escopo não estiver ativado, basta clicar no ícone que aparece na imagem abaixo, ele deve está com a seta para baixo para está ativo:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f316ffb0-761f-4a35-87aa-4259af0052c2)
+
 
 
 
