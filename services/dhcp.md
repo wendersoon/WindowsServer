@@ -64,6 +64,15 @@ Se o escopo não estiver ativado, basta clicar no ícone que aparece na imagem a
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f316ffb0-761f-4a35-87aa-4259af0052c2)
 
+Para vermos as estatísticas do servidor, basta clicar com o botão direito do mouse sobre o escopo e clicar em `Display Statistics`. Veja abaixo o resultado do meu:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/b648c3ba-f342-49b8-abc7-06abecbfab4e)
+
+Temos 181 IPs para entregar, se caso houvesse alguma máquina conectada iria aparecer aí. 
+
+---
+
+Esse é o nosso servidor DHCP, está funcional mas não consegui testar na minha rede devido a um outro servidor DHCP que está com maior prioridade. Agradeço por ter lido até aqui!
 
 
 
