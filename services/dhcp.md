@@ -60,19 +60,32 @@ Observe no painel principal do DHCP Server(imagem abaixo) que do lado esquerdo e
 10. Pule a janela `WINS Servers` que serve para configurações especifícas para computadores com Windows.
 11. Na janela seguinte deixe marcado a opção `Yes, I want to activate this scope now`. E termine a configuração
 
-Se o escopo não estiver ativado, basta clicar no ícone que aparece na imagem abaixo, ele deve está com a seta para baixo para está ativo:
+12. Se o escopo não estiver ativado, basta clicar no ícone que aparece na imagem abaixo, ele deve está com a seta para baixo para está ativo:
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f316ffb0-761f-4a35-87aa-4259af0052c2)
 
+13. Agora precisamos autorizar o servidor DHCP no nosso controlador de domínio que configuramos no artigo anterior do Active Directory. Precisamos fazer isso porque configuramos um ambiente de domínio, isto significa que, tudo que fizermos precisa de autorização de um usuário administrador do domínio. Isso é bom, pois garante maior controle da infraestrutura e, claro, evita de intrusos quererem bagunçar o servidor.
+
+Voltando no painel principal do Server Manager, temos o ícone de notificação com alerta. Abra e clique em `Complete DHCP configuration`:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/cd62896e-0927-451e-a67f-86a7fdd5ba69)
+
+Na janela que vai abrir clique em `next` e na outra clique em `commit`. E temos no servidor DHCP autorizado no domínio:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/566c935c-5d2d-4b7a-99f3-0c55ea3dfb20)
+
+1
+## Teste do Servidor
+
+
 Para vermos as estatísticas do servidor, basta clicar com o botão direito do mouse sobre o escopo e clicar em `Display Statistics`. Veja abaixo o resultado do meu:
 
-![image](https://github.com/wendersoon/WindowsServer/assets/104470835/b648c3ba-f342-49b8-abc7-06abecbfab4e)
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/b532b140-33cb-4a61-ae2d-dc087a188882)
 
-Temos 181 IPs para entregar, se caso houvesse alguma máquina conectada iria aparecer aí. 
+Dos 181 IP's disponíveis, o servidor está entregando endereços para 3 máquinas. Isso significa que está funcionando corretamente.
 
 ---
 
-Esse é o nosso servidor DHCP, está funcional mas não consegui testar na minha rede devido a um outro servidor DHCP que está com maior prioridade. Agradeço por ter lido até aqui!
-
+Terminamos por aqui esse artigo. Agradeço pela leitura!
 
 
