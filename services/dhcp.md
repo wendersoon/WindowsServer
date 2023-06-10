@@ -44,8 +44,12 @@ Observe no painel principal do DHCP Server(imagem abaixo) que do lado esquerdo e
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/0163d6ad-ee0b-47ac-8756-227819de43d9)
 
-5. A próxima janela defini-se as exclusões de endereços que não serão distribuídos. Por exemplo, se ali em cima eu tivesse adicionado a faixa de IP a partir de 192.168.0.1, certamente para não dá algum problema lá na frente, eu adicionaria o IP do servidor como uma exclusão. Mas configurei no passo anterior de uma forma que deixe uma faixa de IPs livres para trabalharmos, essa é uma prática recomendada.
+5. A próxima janela defini-se as **exclusões de endereços** que não serão distribuídos. Por exemplo, se ali em cima eu tivesse adicionado a faixa de IP a partir de 192.168.0.1, certamente para não dá algum problema lá na frente, eu adicionaria o IP do servidor como uma exclusão. Mas como configurei no passo anterior de uma forma que deixe uma faixa de IPs livres para trabalharmos não faz-se necessário a exclusão, além do mais essa é uma prática recomendada.
 
+6. Na janela seguinte, pede-se o tempo em que um IP ficará disponível para uma máquina. Esse tempo depende muito do ambiente na qual o servidor DHCP irá ser usado, por exempo, em uma praça de alimentação com fluxo enorme de pessoas não é nenhum pouco recomendável reservar um IP para um cliente por, digamos, 3 dias porque isso causaria problemas na conexão onde uma nova máquina não conseguiria obter um IP, por exemplo. Como estou em um ambiente de teste, irei deixar o padrão mesmo que é de 8 dias.
+
+7. 
+8. 
 
 
 
