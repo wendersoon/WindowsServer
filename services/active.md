@@ -28,7 +28,7 @@ Termine a instalação da função e não esqueça de exportar as configuraçõe
 
 ## Configuração
 
-No painel principal do Server Manager, perceba que o ícone de notíficações deu um alerta:
+No painel principal do Server Manager, perceba que o ícone de notíficações deu um alerta, é aqui que fica o pós-instalação do AD:
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/eacd0a1a-b7f3-4331-9eb2-9afc3916e741)
 
