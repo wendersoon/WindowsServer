@@ -58,8 +58,19 @@ Veja que desmarquei o servidor DNS porque não o temos instalado até o momento.
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/515b14ec-79ef-4529-a6ca-9027c7cd4403)
 
+7. Termine de instalar e após o processo o seu servidor irá reiniciar. Veja como a tela de login já mudou na reinicialização, o domínio que escolhemos aparecer anteposto o nome do perfil:
 
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f779cca1-a5c5-4498-ae35-cabe533f94b1)
 
+8. Acesse o Server Manager e veja na guia `Tools` os atalhos disponíveis do Active Directory:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/e78cfaa3-499e-431e-b976-0a17ebdd3937)
+
+Veremos em outros artigos algumas dessas ferramentas.
+
+---
+
+Termino por aqui esse artigo. Obrigado pela leitura!
 
 
 
