@@ -74,7 +74,7 @@ Na janela que vai abrir clique em `next` e na outra clique em `commit`. E temos 
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/566c935c-5d2d-4b7a-99f3-0c55ea3dfb20)
 
-1
+
 ## Teste do Servidor
 
 
