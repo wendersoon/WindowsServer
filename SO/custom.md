@@ -23,7 +23,9 @@ Em geral, toda configuração de servidor deve ter essa etapa que é a determina
 
 * Caminho para alterar o IP:
 
-![image](https://github.com/wendersoon/WindowsServer/assets/104470835/8635c69b-00a2-43b5-970a-7039c90f6451)
+Perceba que defini um IP estático e também defini como DNS primário o próprio IP da máquina para que ela seja cliente dela mesmo e assim a infraestrutura esteja fechado, essa configuração nos será muito nos próximos artigos!
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/17c6b251-c053-40d6-aafd-7c24e4f0af04)
 
 ### Atualizando o servidor
 
