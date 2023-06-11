@@ -64,7 +64,7 @@ Observe no painel principal do DHCP Server(imagem abaixo) que do lado esquerdo e
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f316ffb0-761f-4a35-87aa-4259af0052c2)
 
-13. Agora precisamos autorizar o servidor DHCP no nosso controlador de domínio que configuramos no artigo anterior do Active Directory. Precisamos fazer isso porque configuramos um ambiente de domínio, isto significa que, tudo que fizermos precisa de autorização de um usuário administrador do domínio. Isso é bom, pois garante maior controle da infraestrutura e, claro, evita de intrusos quererem bagunçar o servidor.
+13. Agora precisamos autorizar o servidor DHCP no nosso controlador de domínio que configuramos no artigo anterior do Active Directory. Precisamos fazer isso porque configuramos um ambiente de domínio, e agora tudo que fizermos precisa de autorização de um usuário administrador do domínio. Isso é bom, pois garante maior controle da infraestrutura e, claro, evita de intrusos quererem bagunçar o servidor.
 
 Voltando no painel principal do Server Manager, temos o ícone de notificação com alerta. Abra e clique em `Complete DHCP configuration`:
 
