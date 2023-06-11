@@ -67,6 +67,30 @@ Se você não configurou o Active Directory, a última caixa de seleção não e
 Para a criação de zonas reversas segue-se o mesmo padrão com a diferença que teremos de adicionar o IP em determinada janela.
 
 
+## Teste do Servidor
+
+***OBS: Se você fizer o teste na sua máquina real, lembre-se de configurar sua rede para que responda ao DNS do seu servidor!***
+
+Irei utilizar a zona configurada automaticamente quando trabalhamos com o Active Directory. O nome para meu ip pode ser achado da seginte forma:
+
+![Screencast from 11-06-2023 12_09_43](https://github.com/wendersoon/WindowsServer/assets/104470835/dd9fd69f-0c7d-478c-ac9b-c41aea72cd9f)
+
+Utilizando esse nome, o primeiro teste que farei é com o `nslookup` no terminal do meu ubuntu, veja o resultado:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/869d4ce8-49ff-4e99-a936-5c46a3af2b57)
+
+Isso mostra que está resolvendo o nome para o IP da minha máquina.
+
+Agora vamos acessar o site que configuramos no artigo do servidor web. Colocaremos o mesmo nome para ser resolvido, acrescetando apenas a porta 8080 que configuramos lá. 
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/76066678-9135-4bfc-a39f-e7fc6de39e72)
+
+E funcionou corretamente! :)
+
+---
+
+Terminamos por aqui esse artigo. Obrigado pela leitura!
+
 
 
 
