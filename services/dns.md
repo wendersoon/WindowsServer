@@ -29,9 +29,44 @@ Não esqueça de salvar as configurações na sua pasta. Termine a instalação.
 
 É interessante adicionar o sufixo do DNS com o mesmo nome que você colocou como domínio no Active Directory. 
 
-
-1. No Server Manager acesse a guia `Tools` e procure por DNS:
+2. No Server Manager acesse a guia `Tools` e procure por DNS:
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/2cea6881-c115-45d3-88e6-5867c0e558e5)
+
+3. Ao acessar o DNS, o primeiro painel apresentado é como o do print abaixo:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/0eb986d0-3200-4b04-82a2-2c994d8aa673)
+
+* `Forward Lookup Zone`: é onde configuramos uma área de pesquisa direta no DNS. Ele mapeia nomes de domínio para endereços IP;
+* `Reverse Lookup Zones`: configuramos uma área de pesquisa reversa no DNS. Ao contrário de uma zona de pesquisa direta, onde você procura um endereço IP para obter o nome de domínio correspondente, uma zona de pesquisa reversa permite pesquisar o nome de domínio correspondente a um endereço IP;
+* `Trust Points`: os "pontos de confiança" são usados no DNS para estabelecer confiança entre diferentes domínios Por meio de trust points, um domínio pode delegar a autoridade para a resolução de nomes a outro domínio confiável;
+* `Conditional Forwarders`: são as configurações que permitem que um servidor DNS encaminhe solicitações para um servidor DNS específico com base em condições definidas; 
+* `Root Hints`: são informações de configuração do servidor DNS que ajudam a resolver nomes de domínio quando o servidor não tem as informações em cache;
+* `Forwarders`: são servidores DNS para os quais o servidor DNS local encaminha todas as consultas não resolvidas internamente. 
+
+4. Clique em `Forward Lookup Zone`. Se você configurou o Active Directory anteriormente, irá aparecer as zonas de DNS já configuradas e sincronizadas aqui, veja a imagem abaixo. Mas para efeito didático, iremos adicionar uma nova zona no nosso servidor então clique com o botão direito do mouse em  `Forward Lookup Zone` e selecione `New Zone`.
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/913ecb9e-f317-404e-aefb-a82aa08e3c25)
+
+5. Na primeira janela que aparece clique em `next`. Na janela seguinte deixe as configurações da forma padrão como o print abaixo: 
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/086e78af-a581-4133-9533-7f64feaebbf5)
+
+Se você não configurou o Active Directory, a última caixa de seleção não estará disponível. Essa configuração é apenas para integrar a zona no AD.
+
+6. Na janela seguinte deixe a configuração padrão marcada:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/759058ee-9ee7-4df0-ab79-4afa4c7ac24c)
+
+7. Será pedido um nome para a nova zona que está sendo configurada, para diferenciar eu irei colocar o nome *IFMA.WENDERSON.LOCAL*. Você deve também configurar um nome diferente do domínio criado no Active Directory.
+
+8. Na próxima janela selecione o tipo de atualização do DNS. Deixe marcado essa opção para ter atualização dos registros tanto de máquinas microsoft quanto de máquinas não-microsoft.
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/25481fa6-0c39-48af-a045-361705034052)
+
+Para a criação de zonas reversas segue-se o mesmo padrão com a diferença que teremos de adicionar o IP em determinada janela.
+
+
+
 
 
