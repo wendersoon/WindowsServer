@@ -2,8 +2,11 @@
 <div align="center">
   
 
-<img src = https://github.com/wendersoon/WindowsServer/assets/104470835/d74f1c32-b545-4bd3-927d-6d8593d771d9) width = 600>
+<img src = https://github.com/wendersoon/WindowsServer/assets/104470835/5d967728-9b2e-49b9-8dd0-a25822da90dd width = 600>
 
+  
+
+  
 </div>
 
 
