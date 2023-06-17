@@ -1,4 +1,4 @@
-![241810854-0f79ef7a-e227-4267-8f3c-f94cdc66facc](https://github.com/wendersoon/WindowsServer/assets/104470835/498341d0-e249-4660-95a9-911b98cd39b3)# Configurações Iniciais
+# Configurações Iniciais
 
 Veremos nesse tópico as configurações que são desejáveis quando iniciamos um servidor Windows, por exemplo, trocar o nome do servidor, colocar IP fixo etc.
 
