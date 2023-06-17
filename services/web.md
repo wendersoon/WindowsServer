@@ -153,29 +153,43 @@ A segurança na rede é algo essencial e as certificações são necessárias pa
 
 Acesse as configurações do servidor e clique em `Server Certificates`:
 
+![244529855-57513ab5-2add-421b-883c-da3e7af59989](https://github.com/wendersoon/WindowsServer/assets/104470835/f83cd995-3a1f-4ff1-9bde-9547f8dcbaef)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/57513ab5-2add-421b-883c-da3e7af59989)
 
 Clique em `Create Self-Signed Certificate`, está do lado direito da janela:
+
+![244530010-d18e7f91-120c-4025-908d-300c2c829858](https://github.com/wendersoon/WindowsServer/assets/104470835/5ef3e935-02a2-4502-8414-27c896d1b1c6)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/d18e7f91-120c-4025-908d-300c2c829858)
 
 Será pedido apenas duas informações, o nome que deseja dá e o tipo de certificado:
 
+![244530211-6fe253fd-7323-4f9b-809a-158746ae8ea7](https://github.com/wendersoon/WindowsServer/assets/104470835/20ffa251-6472-46d1-943d-5ceadda4e2b9)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/6fe253fd-7323-4f9b-809a-158746ae8ea7)
 
 Após isso clique com o botão direito do mouse no seu site e vá em `Edit Bidings...`
+
+![244531071-c573f14e-3923-4bb1-acd0-c9dd91090049](https://github.com/wendersoon/WindowsServer/assets/104470835/a9f17654-6632-4ad8-8348-64de4d822189)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c573f14e-3923-4bb1-acd0-c9dd91090049)
 
 E adicione as seguintes configurações:
 
+![244531407-a3b1b398-bf13-42e5-a055-ca93d70c66a0](https://github.com/wendersoon/WindowsServer/assets/104470835/f8dd8e4c-20e1-4734-a465-633e00544758)
+
 ![Screencast from 08-06-2023 20_13_02](https://github.com/wendersoon/WindowsServer/assets/104470835/a3b1b398-bf13-42e5-a055-ca93d70c66a0)
 
 Reinicie o seu site, você vai achar essa função no lado direito do painel:
 
+![244531572-5012d5cb-38fc-45fa-9ac3-e9c70df2e9d7](https://github.com/wendersoon/WindowsServer/assets/104470835/9550ee8d-bff3-48ed-91ec-937df225e230)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/5012d5cb-38fc-45fa-9ac3-e9c70df2e9d7)
 
 Vejamos se funcionou, acessando o link `https://IP-DO-SERVIDOR`.
+
+![244532123-bdab6fe6-326e-410d-acd6-ac9f9b946e21](https://github.com/wendersoon/WindowsServer/assets/104470835/3efa505d-13c8-4d77-8576-a139727a589a)
 
 ![Screencast from 08-06-2023 20_19_59](https://github.com/wendersoon/WindowsServer/assets/104470835/bdab6fe6-326e-410d-acd6-ac9f9b946e21)
 
@@ -185,25 +199,37 @@ Deu certo :)
 
 Para instalar a função de servidor FTP basta seguir os mesmos passos da instalação do IIS. Porque a função do FTP é entendido como uma extensão do próprio IIS, veja no print abaixo onde vamos marcar a função para poder instalar:
 
+![244533271-c2b8baff-6c3b-42f4-86cd-c5b3fd3b2ae3](https://github.com/wendersoon/WindowsServer/assets/104470835/09ae5e9c-6679-4594-985f-79c1854d5383)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c2b8baff-6c3b-42f4-86cd-c5b3fd3b2ae3)
 
 Após isso acesse as configurações do ISS para o servidor e veja o roll de novas funções disponíveis:
+
+![244534083-f2845ee0-d39f-440c-8409-e24ec4c983ae](https://github.com/wendersoon/WindowsServer/assets/104470835/1484ca99-78e4-4a6a-b162-6d938795e4ff)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f2845ee0-d39f-440c-8409-e24ec4c983ae)
 
 Para adicionar um servidor FTP, basta clicar em `Add FTP Site...`
 
+![244537901-e2c9fec6-2f57-431a-9fa7-3c88b697b42b](https://github.com/wendersoon/WindowsServer/assets/104470835/ed717449-ab77-4248-8afc-ef24571faa34)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/e2c9fec6-2f57-431a-9fa7-3c88b697b42b)
 
 Na primeira janela adicione o nome do seu servidor FTP e escolha a pasta que irá ser compartilhada. 
- 
+
+![244540471-2f336319-ce4f-4847-9476-b6580d300a35](https://github.com/wendersoon/WindowsServer/assets/104470835/8775e023-3ece-4ebe-a5c8-4757acb452a6)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/2f336319-ce4f-4847-9476-b6580d300a35)
 
 Na próxima janela informe o IP e a porta, e marque a opção de não usar o certificado:
 
+![244541007-8af1113d-e4d8-42a9-a490-c118f331d9b5](https://github.com/wendersoon/WindowsServer/assets/104470835/2cdd8d90-61b4-4a6a-95a4-3e68e4f540cc)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/8af1113d-e4d8-42a9-a490-c118f331d9b5)
 
 E em seguida informe o/os usuários que irão utilizar e o que podem fazer. Lembre-se que aqui é apenas um tutorial, em um servidor de produção deve-se ter sempre o cuidado em compartilhar pastas na rede:
+
+![244541230-9ef529c3-29c0-445b-9504-c095219d344b](https://github.com/wendersoon/WindowsServer/assets/104470835/7cf37b0b-31ea-4939-ac8d-9d38e73d4b82)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/9ef529c3-29c0-445b-9504-c095219d344b)
 
@@ -211,6 +237,8 @@ Pronto, nosso servidor já está funcionando!
 
 
 Para acessá-lo basta que você abra o navegador Internet Explorer no seu servidor e busque na URL por `ftp:\\IP-DO-SERVIDOR`, será pedido as informações de login. Veja o print abaixo:
+
+![244542652-ac6f963c-3578-409e-8ece-c1d1ab973eef](https://github.com/wendersoon/WindowsServer/assets/104470835/a7ee1bf4-ab89-4a37-bcf3-85cb8dfa835b)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/ac6f963c-3578-409e-8ece-c1d1ab973eef)
 
