@@ -1,7 +1,9 @@
 # Controlador de Domínio
 
 <div align="center">
-  
+
+![244871836-9f3824b5-a399-4de1-a485-73e1dbc273fe](https://github.com/wendersoon/WindowsServer/assets/104470835/d09061fe-76a2-4d44-97b9-c820aaf1265a)
+
 <img src=https://github.com/wendersoon/WindowsServer/assets/104470835/9f3824b5-a399-4de1-a485-73e1dbc273fe  width="500" />
 
 </div>
@@ -18,9 +20,13 @@ Iremos nesse artigo instalar e configurar o Active Directory(AD) e utilizar ele 
 
 Como de praxe na instalação de funções no Windows Server 2016, para adicionar o **Active Directory** no servidor basta você acessar o `Manage -> Add Rules and Features` e localizar o serviço. Veja abaixo como ele aparece:
 
+![244873581-6ef3982a-ecd1-47e8-8a06-efa8568c2f26](https://github.com/wendersoon/WindowsServer/assets/104470835/656bcd69-fb08-4c8c-827b-8eda22e1ff97)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/6ef3982a-ecd1-47e8-8a06-efa8568c2f26)
 
 Se você perceber, na tela de overview do serviço, ele fala que é possível integrar o AD com a Azure:
+
+![244873693-65fe4e61-701b-4d16-abd1-8ae1ab54e9df](https://github.com/wendersoon/WindowsServer/assets/104470835/ff48c03a-5f45-4373-a5dd-7011dd9a6f98)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/65fe4e61-701b-4d16-abd1-8ae1ab54e9df)
 
@@ -30,9 +36,13 @@ Termine a instalação da função e não esqueça de exportar as configuraçõe
 
 No painel principal do Server Manager, perceba que o ícone de notíficações deu um alerta, é aqui que fica o pós-instalação do AD:
 
+![244874239-eacd0a1a-b7f3-4331-9eb2-9afc3916e741](https://github.com/wendersoon/WindowsServer/assets/104470835/8edf3fcf-6b70-4f71-9559-ec47b27f30db)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/eacd0a1a-b7f3-4331-9eb2-9afc3916e741)
 
 1. Clique em `Promote this server to a domain controler`, e selecionaremos a seguinte configuração:
+
+![244874900-0fc10af3-0cc1-46c8-b711-d721b8ef99de](https://github.com/wendersoon/WindowsServer/assets/104470835/2d49a8cb-59ec-4529-8860-8dd00c09b91c)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/0fc10af3-0cc1-46c8-b711-d721b8ef99de)
 
@@ -43,6 +53,8 @@ Veja também que em `Root domain name` coloquei `IFMA.WENDERSON`, você pode est
 2. Na segunda etapa, ele vai pedir o nível funcional do domínio e o nível funcional de floresta. De maneira muito breve, o nível funcional de domínio leva em conta a existência de outros **controladores de domínios legados** na infraestrutura/rede, por exemplo, um controlador de domínio em Windows Server 2016 que está na mesma rede de um controlador de domínio com Windows Server 2003, o WS2016 terá o nível funcional do WS2003. 
 
 Já o nível funcional de floresta são as features que teremos disponíveis para toda a infraestrutura do nosso domínio e sub-domínios (floresta). Geralmente, o nível funcional da floresta é definido pelo nível funcional do domínio mais baixo presente na floresta. Veja a imagem abaixo de como ficou a configuração nessa janela:
+
+![244876304-d07e6841-1907-4aa5-a52e-e1ccbb181166](https://github.com/wendersoon/WindowsServer/assets/104470835/4ee60dfc-1287-41c4-b22a-fbb0a8013dd3)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/d07e6841-1907-4aa5-a52e-e1ccbb181166)
 
@@ -56,13 +68,19 @@ Veja que desmarquei o servidor DNS porque não o temos instalado até o momento.
 
 6. Na próxima janela, o assitente vai verificar se precisar de algum pré-requisito para que nosso controlador funcione normalmente:
 
+![244876762-515b14ec-79ef-4529-a6ca-9027c7cd4403](https://github.com/wendersoon/WindowsServer/assets/104470835/f9767b8d-c1cc-429a-b822-076448149a83)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/515b14ec-79ef-4529-a6ca-9027c7cd4403)
 
 7. Termine de instalar e após o processo o seu servidor irá reiniciar. Veja como a tela de login já mudou na reinicialização, o domínio que escolhemos aparecer anteposto o nome do perfil:
 
+![244877422-f779cca1-a5c5-4498-ae35-cabe533f94b1](https://github.com/wendersoon/WindowsServer/assets/104470835/3d350b19-bf35-4a91-8957-2aa09b2d6234)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f779cca1-a5c5-4498-ae35-cabe533f94b1)
 
 8. Acesse o Server Manager e veja na guia `Tools` os atalhos disponíveis do Active Directory:
+
+![244877593-e78cfaa3-499e-431e-b976-0a17ebdd3937](https://github.com/wendersoon/WindowsServer/assets/104470835/ac39c4d6-0ed0-4d38-8ef1-971141536813)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/e78cfaa3-499e-431e-b976-0a17ebdd3937)
 
