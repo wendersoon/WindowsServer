@@ -63,21 +63,29 @@ Na guia `Tools`, toda vez que instalarmos alguma função nova ela será listada
 
 O primeiro teste que devemos fazer é acessar o IP pela porta 80 em navegador, se espera que veja a página padrão do IIS. Veja abaixo o resultado:
 
+![244503982-a7d27a4c-507f-48ca-9c3f-379f0d4f981d](https://github.com/wendersoon/WindowsServer/assets/104470835/22f96211-3c6a-4a35-a001-1a721e825454)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/a7d27a4c-507f-48ca-9c3f-379f0d4f981d)
 
 Agora vejamos a interface e as configurações disponíveis no ISS e os serviços adicionais que instalamos (lembrando que para você acessar o IIS, basta ir em `Tools` e acessar a função). 
 
 Quando clicarmos, nos depararemos com uma janela apresentando diversas informações sobre a aplicação, essa primeira parte é chamada de `Start Page`. Nós queremos as configurações relacionas ao **nosso servidor**, por isso vamos clicar no nome dele na parte esquerda da janela como na imagem abaixo:
 
+![244508381-c75119cd-4459-40f3-bc3e-b3c7f79bcd48](https://github.com/wendersoon/WindowsServer/assets/104470835/6a0fedc2-2313-4f49-a558-ad7dabfc3e38)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c75119cd-4459-40f3-bc3e-b3c7f79bcd48)
 
 Depois disso temos o seguinte painel:
+
+![244512373-fe258698-5d5b-4d1f-a84b-d83d20a6e90f](https://github.com/wendersoon/WindowsServer/assets/104470835/eaba2406-6325-4d8e-9293-a357ad8a9216)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/fe258698-5d5b-4d1f-a84b-d83d20a6e90f)
 
 São muitos os serviços apresentados nessa instalação básica, muitos deles são intuitivos outros exigem mais conhecimento técnico. Porém, neste artigo, não veremos todos eles porque o meu objetivo aqui é apresentar a ferramenta e um tutorial básico de seu uso. Você pode está aprofudando os seus conhecimentos atráves do site oficial que contém mais detalhes de cada "canto" dessa função. Novamento deixo aqui o link do [site oficial](https://www.iis.net/).
 
 Se você abrir a seta ao lado do nome do servidor verá algumas aplicações associadas como, por exemplo, a da impressora e também uma pasta que irá conter os sites. E se você tiver curiosidade, ao clicar na página padrão, verá que o painel que aparece é bem semelhante ao painel anterior quando clicamos no nome do servidor. Evidemente, o painel anterior refere-se as configurações gerais do servidor enquanto o painel do site refere-se as configuraçãos do próprio site. Veja abaixo um print do painel do site:
+
+![244515704-62a26d13-1399-4b27-8b39-1084385c78f7](https://github.com/wendersoon/WindowsServer/assets/104470835/b888ee45-156b-4405-aae4-7fdf93a920a5)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/62a26d13-1399-4b27-8b39-1084385c78f7)
 
@@ -86,6 +94,8 @@ Se você abrir a seta ao lado do nome do servidor verá algumas aplicações ass
 Agora vamos adicionar um novo site, para isso iremos clicar com o botão direito do mouse em cima do servidor e em seguida clicar em `Add Website...`. Após isso irá aparecer uma janela como a do print abaixo, adicione as informações que são pedidas(pode ser igual da imagem). 
 
 *Atenção em dois detalhes: O primeiro é de escolher uma porta que nenhum serviço esteja utilizando no momento. E o segundo é que o caminho que escolhi (`C:\inetpub\wwwroot\`) é o padrão do IIS e se você explorar encontrará os arquivos do site que vimos anteriormente no primeiro teste. O que fiz na imagem abaixo foi apenas criar uma pasta especifíca ali dentro para o meu novo site*
+
+![244520080-301c5159-f591-4d60-845b-c8dbef544985](https://github.com/wendersoon/WindowsServer/assets/104470835/dee200e7-8b50-44f2-8331-3e23462c839e)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/301c5159-f591-4d60-845b-c8dbef544985)
 
@@ -113,19 +123,27 @@ Agora vamos acessar a pasta e lá dentro criar um arquivo html para nosso site. 
 ```
 O próximo passo é permitir no firewall o acesso externo na porta que configuramos, no caso a porta 8080. Primeiro pesquise no menu iniciar por "firewall" e clique no ícone como da imagem abaixo:
 
+![244526646-59c052ae-ec36-4179-9077-138d835b1f7f](https://github.com/wendersoon/WindowsServer/assets/104470835/2ace096d-a381-4ca0-a566-d9b8031ca66f)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/59c052ae-ec36-4179-9077-138d835b1f7f)
 
 Em seguida vá em `Inbound Rules` -> `New Rule...`:
 
+![244527695-9b1dc000-106e-449e-881a-baca1a6577a9](https://github.com/wendersoon/WindowsServer/assets/104470835/3a1532a4-cf89-4b39-bf33-d7880cb14785)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/9b1dc000-106e-449e-881a-baca1a6577a9)
 
 Escolha em `Rule Type` o tipo para porta, em `Protocol and Ports` adicione a porta 8080:
+
+![244528076-cc77f9b8-7e78-419a-972a-ad7d613cc85b](https://github.com/wendersoon/WindowsServer/assets/104470835/eb23452c-01e9-4698-a3bc-b29d866595ff)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/cc77f9b8-7e78-419a-972a-ad7d613cc85b)
 
 Clique em `next` até o último painel. Dê um nome a essa nova configuração e salve.
 
 Se tudo deu certo podemos acessar agora pelo navegador com a respectiva porta. Vejamos o resultado abaixo:
+
+![244528418-6aaa89d6-d2b8-4696-8be7-ab720e5b9c15](https://github.com/wendersoon/WindowsServer/assets/104470835/1321b74e-e382-4904-8837-69d48564ddc3)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/6aaa89d6-d2b8-4696-8be7-ab720e5b9c15)
 
