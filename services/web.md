@@ -1,6 +1,9 @@
 # Servidor WEB
 
 <div align = "center">
+ 
+![243180626-30ac9ec0-faca-4980-8ae4-60f8d5d78392](https://github.com/wendersoon/WindowsServer/assets/104470835/b6e36001-7f8b-43ae-8781-a1007317fabf)
+
 
 ![iis-logo-blue](https://github.com/wendersoon/WindowsServer/assets/104470835/30ac9ec0-faca-4980-8ae4-60f8d5d78392)
 
@@ -19,10 +22,15 @@ Para instalar o ISS ou qualquer outro serviço deve-se seguir os seguintes passo
 
 2. Na janela seguinte ("Instalation Type") é pedido basicamente duas coisas, se você que fazer a instalação em um servidor remoto ou local. No nosso caso é no servidor local então deixamos marcado a seguinte opção:
 
+![243183220-81b5dbf2-e801-4ae9-bf3c-53dbbb12b8df](https://github.com/wendersoon/WindowsServer/assets/104470835/4ab2b53f-1d0c-49f9-940b-ae39568ce94f)
+
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/81b5dbf2-e801-4ae9-bf3c-53dbbb12b8df)
 
 3. Na próxima janela ("Server Selection") é onde selecionamos nosso servidor (sim, isso mesmo kkkk), como tenho apenas um servidor ativo é só ele que irá aparecer.
 4. A janela seguinte do assistente é onde de fato adicionamos o serviço/função que desejo instalar. Nela estão listadas muitos serviços, procuraremos por `Web Server (ISS)` como na imagem abaixo:
+
+![243183898-eb4bf52b-639b-4d19-bb44-76c9ab11cdc8](https://github.com/wendersoon/WindowsServer/assets/104470835/b590d6ea-b1c9-464c-9a5b-43fd5ed1906d)
+
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/eb4bf52b-639b-4d19-bb44-76c9ab11cdc8)
 
@@ -32,16 +40,22 @@ Se você observar, no lado direito irá sempre aparecer uma breve descrição da
 6. A próxima janela é apresentado um pequeno resumo da função que iremos instalar, além de colocar no rodapé um link para que saibamos mais sobre aquele serviço.
 7. A janela "Role Services" é onde adicionaremos serviços da nossa função, no caso, serviços que comporão o *Web Server(ISS)*, veja na imagem abaixo os que instalaremos:
 
+![243185936-54b348de-6cc8-4079-a8d6-379c362503be](https://github.com/wendersoon/WindowsServer/assets/104470835/385717d7-da32-44c3-acc0-d4a76a0f3e7a)
+
 ![Sem título (1)](https://github.com/wendersoon/WindowsServer/assets/104470835/54b348de-6cc8-4079-a8d6-379c362503be)
 
 Para efeito didático, não abordarei cada uma delas aqui pois isso alongaria demais o artigo. Mas se você quiser entender cada um, poderar está lendo as descrições que aparecem na lateral e fazendo suas pesquisas.
 8. Na janela "Confirmation" abaixo é apresentado um resumo de tudo que iremos instalar, também é interessante salvarmos essas configurações se caso precisarmos fazer alguma auditoria futura, então para isso clicamos em `Export configuration settings`. Irei criar uma pasta específica para salvar esses documentos, você aí pode está fazendo como quiser. 
+
+![243186680-e8823e9f-a68b-4dc4-bbda-d2210c2b3efc](https://github.com/wendersoon/WindowsServer/assets/104470835/306174c0-0c6c-41f2-b14a-29843ba2ffff)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/e8823e9f-a68b-4dc4-bbda-d2210c2b3efc)
 
 Após salvar o documento, clique em `Install` e aguarde o processo de instalação ser concluído, após isso feche a janela.
 
 Na guia `Tools`, toda vez que instalarmos alguma função nova ela será listada ali, veja como o **Web Server ISS** aparece:
+
+![243187725-d9c0483c-b43b-4812-8572-a8d24541b263](https://github.com/wendersoon/WindowsServer/assets/104470835/f0ad5d93-b571-4bdf-adad-bf383d0402aa)
 
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/d9c0483c-b43b-4812-8572-a8d24541b263)
 
