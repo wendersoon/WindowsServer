@@ -10,7 +10,7 @@ Vejamos as funcionalidades nos tópicos abaixo.
 
 Encontramos o **Server Manager** no menu iniciar, como vimos no *artigo anterior*. A primeira janela que vemos ao abrir a ferramenta é a seguinte:
 
-![image](https://github.com/wendersoon/WindowsServer/assets/104470835/772c8260-c19a-4f1d-8fad-299f17dab341)
+![243129941-772c8260-c19a-4f1d-8fad-299f17dab341](https://github.com/wendersoon/WindowsServer/assets/104470835/17ffdef4-ebf8-44b9-9969-39b7d88f675c)
 
 Agora veremos cada uma das guias que podemos observar nessa janela principal. Começaremos pelas guias do lado esquerdo:
 
@@ -24,11 +24,11 @@ Agora veremos cada uma das guias que podemos observar nessa janela principal. Co
 
 Agora veremos as seguintes guias:
 
-![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c504bbf5-2a8d-4e12-813d-3242e7ad9b7e)
+![243130664-c504bbf5-2a8d-4e12-813d-3242e7ad9b7e](https://github.com/wendersoon/WindowsServer/assets/104470835/7fe15bdf-3de5-490d-a998-4f5bcd117ece)
 
 * `Manage`: essa guia fornece acesso a configurações importantes em um gerenciamento de servidor tais como: adicionar/remover funções e recursos, adicionar servidores, criar grupos de servidores e acessar as propriedades do gerenciador do servidor. Veja a guia aberta abaixo;
 
-![image](https://github.com/wendersoon/WindowsServer/assets/104470835/f338f6d6-f318-4760-89e0-3d8b54124759)
+![243131365-f338f6d6-f318-4760-89e0-3d8b54124759](https://github.com/wendersoon/WindowsServer/assets/104470835/41fc9b6c-3ec0-499b-bff1-9409e0781210)
 
 * `Tools`: nessa guia temos acesso as nossas ferramentas e utilitários para o servidor tanto as que já estão preeviamente instaldas como as ques instalaremos no próximos artigos;
 
