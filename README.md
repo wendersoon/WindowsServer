@@ -31,6 +31,10 @@ Todas as etapas desse projeto estão listados abaixo, você pode também acessá
 * [INSTALAÇÃO DA ISO](https://github.com/wendersoon/WindowsServer/blob/main/SO/windows-server.md)
 * [CUSTOMIZAÇÕES INICIAIS](https://github.com/wendersoon/WindowsServer/blob/main/SO/custom.md)
 * [SOBRE O SERVER MANAGER](https://github.com/wendersoon/WindowsServer/blob/main/SO/servermanager.md)
-* [SERVIDOR WEB: IIS]()
+* [SERVIDOR WEB: IIS](https://github.com/wendersoon/WindowsServer/blob/main/services/web.md)
+* [GERENCIADOR DE DOMÍNIO: ACTIVE DIRECTORY](https://github.com/wendersoon/WindowsServer/blob/main/services/active.md)
+* [SERVIDOR DHCP](https://github.com/wendersoon/WindowsServer/blob/main/services/dhcp.md)
+* [SERVIDOR DNS](https://github.com/wendersoon/WindowsServer/blob/main/services/dns.md)
+* [SERVIDOR DE IMPRESSÃO](https://github.com/wendersoon/WindowsServer/blob/main/services/print.md)
 
 
