@@ -72,6 +72,22 @@ Em `Type of Device` temos diversas maneiras de adicionar a impressora, fique a v
 ![image](https://github.com/wendersoon/WindowsServer/assets/104470835/578364d4-e887-45b3-84a2-3c5a57e38383)
 
 Depois disso a impressora está instalada!
-11. 
+
+11. Em `Prints`, o local onde fica a informação das impressoras do servidor, localize a impressora que você instalou e clique em suas propriedades:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/8b54bf11-f32d-414b-a0fd-f6bc84b86265)
+
+12. Em `Sharing` deixe desmarcado a seguinte opção:
+
+![image](https://github.com/wendersoon/WindowsServer/assets/104470835/c3eae929-39b0-4bab-90e7-7652cc7de3c1)
+
+Pois se essa opção estiver marcada, todo o processamento da impressão será feito no computador do cliente. E qual é a intenção do Servidor? Realizar todo o processamento da impressão, além de evitar o sobrecarregamento da rede.
+
+---
+
+Como não tenho um impressora disponível, esse artigo não terá uma sessão de teste.
+
+Terminamos por aqui, obrigado pela leitura!
+
 
 
